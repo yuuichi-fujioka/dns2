@@ -14,7 +14,8 @@ services:
         - -conf
         - /Corefile
         ports:
-            - "1053:53/udp"
+            - "53:53"
+            - "53:53/udp"
         volumes:
             - "./Corefile:/Corefile"
         restart: always
