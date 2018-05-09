@@ -1,0 +1,9 @@
+. {
+    etcd example.com {
+        path /dns
+        endpoint http://etcd:2379
+    }
+    errors
+    log
+    loadbalance round_robin
+}
