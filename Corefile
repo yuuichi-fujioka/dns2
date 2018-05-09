@@ -1,5 +1,5 @@
 . {
-    etcd example.com {
+    etcd . {
         path /dns
         endpoint http://etcd:2379
     }
