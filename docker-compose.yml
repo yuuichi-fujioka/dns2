@@ -9,7 +9,7 @@ services:
             ETCD_ADVERTISE_CLIENT_URLS: http://etcd:2379
         restart: always
     app:
-        image: coredns/coredns
+        image: coredns/coredns:1.1.4
         command:
         - -conf
         - /Corefile
